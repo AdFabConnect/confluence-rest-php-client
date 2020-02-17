@@ -4,69 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bacd6969ea29301a1a63b49ddd10ef90",
+    "content-hash": "3d7efd77560755fdfe0068c051fd51c6",
     "packages": [
-        {
-            "name": "adlogix/guzzle-atlassian-connect-middleware",
-            "version": "1.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/adlogix/guzzle-atlassian-connect-middleware.git",
-                "reference": "d3380c04c87fab6314bf753d4591eeb66527ae69"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/adlogix/guzzle-atlassian-connect-middleware/zipball/d3380c04c87fab6314bf753d4591eeb66527ae69",
-                "reference": "d3380c04c87fab6314bf753d4591eeb66527ae69",
-                "shasum": ""
-            },
-            "require": {
-                "firebase/php-jwt": "^3.0 || ^4.0",
-                "php": ">=5.6.0"
-            },
-            "require-dev": {
-                "guzzlehttp/guzzle": "^6.2",
-                "phpunit/phpunit": "^5.6",
-                "silex/silex": "^2.0",
-                "twig/twig": "^1.26"
-            },
-            "suggest": {
-                "guzzlehttp/guzzle": "For using this library as it was created for Guzzle6. But you should be able to use it with any PSR-7 HTTP Client"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Adlogix\\GuzzleAtlassianConnect\\": [
-                        "src/",
-                        "tests/"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cedric Michaux",
-                    "email": "cedric@adlogix.eu",
-                    "homepage": "http://www.adlogix.eu"
-                }
-            ],
-            "description": "An Atlassian Connect authentication middleware for Guzzle",
-            "keywords": [
-                "Authentication",
-                "Confluence",
-                "Guzzle",
-                "QSH",
-                "atlassian",
-                "connect",
-                "jira",
-                "jwt",
-                "middleware"
-            ],
-            "time": "2016-12-26T11:03:41+00:00"
-        },
         {
             "name": "doctrine/annotations",
             "version": "v1.6.0",
@@ -459,6 +398,67 @@
                 "xml"
             ],
             "time": "2018-07-25T13:58:54+00:00"
+        },
+        {
+            "name": "matthiasrousseau/guzzle-atlassian-connect-middleware",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MatthiasRousseauAdFab/guzzle-atlassian-connect-middleware.git",
+                "reference": "aed0f8f15038a7d251dfa202b259231e40ae36bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MatthiasRousseauAdFab/guzzle-atlassian-connect-middleware/zipball/aed0f8f15038a7d251dfa202b259231e40ae36bb",
+                "reference": "aed0f8f15038a7d251dfa202b259231e40ae36bb",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "^3.0 || ^4.0",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "^6.2",
+                "phpunit/phpunit": "^5.6",
+                "silex/silex": "^2.0",
+                "twig/twig": "^1.26"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "For using this library as it was created for Guzzle6. But you should be able to use it with any PSR-7 HTTP Client"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Adlogix\\GuzzleAtlassianConnect\\": [
+                        "src/",
+                        "tests/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cedric Michaux",
+                    "email": "cedric@adlogix.eu",
+                    "homepage": "http://www.adlogix.eu"
+                }
+            ],
+            "description": "An Atlassian Connect authentication middleware for Guzzle",
+            "keywords": [
+                "Authentication",
+                "Confluence",
+                "Guzzle",
+                "QSH",
+                "atlassian",
+                "connect",
+                "jira",
+                "jwt",
+                "middleware"
+            ],
+            "time": "2020-02-17T14:33:07+00:00"
         },
         {
             "name": "phpcollection/phpcollection",
